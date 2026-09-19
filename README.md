@@ -1,6 +1,6 @@
 # Silt
 
-8. klassi kolmeliikmelise tiimi digiloovtöö: tunniplaani järgi uueneva digitaalse uksesildi prototüüp Pärnu Hariduskeskuse ühele IT-õppeklassile.
+Kolmeliikmelise 8. klassi tiimi digiloovtöö: tunniplaani järgi uueneva digitaalse uksesildi prototüüp Pärnu Hariduskeskuse ühele IT-õppeklassile.
 
 ## Eesmärk
 
@@ -13,7 +13,7 @@ Loome ekraanil töötava prototüübi, mis näitab ruumi infot, kuupäeva ja kel
 3. Leppige kokku tööjaotus ja valige tahvlilt esimene ülesanne.
 4. Kirjutage iga töökorra järel [tööpäevikusse](docs/Toopaevik.md).
 
-Dokumentatsiooni sisukord: [docs/Home.md](docs/Home.md). Siinsed lehed on ette valmistatud ka GitHub Wikisse kopeerimiseks.
+Dokumentatsiooni sisukord: [docs/Home.md](docs/Home.md). Projekti juhendid on avaldatud ka [GitHub Wikis](https://github.com/parnu-digiloovtoo/silt/wiki).
 
 ## Kaustad
 
@@ -24,6 +24,11 @@ Dokumentatsiooni sisukord: [docs/Home.md](docs/Home.md). Siinsed lehed on ette v
 - `tests/` – katsete kirjeldused ja tulemused.
 - `.github/` – ülesannete ja muudatusettepanekute mallid.
 
-## Seadistamise seis
+## Projekti lingid
 
-See on kohalik ettevalmistatud algstruktuur. GitHubi organisatsioon, repo, Wiki, kasutajaõigused ja Projects-tahvel vajavad veel GitHubis loomist ning kontrollimist. Rakendust pole veel teostatud.
+- [GitHub Wiki](https://github.com/parnu-digiloovtoo/silt/wiki)
+- [Ülesanded](https://github.com/parnu-digiloovtoo/silt/issues)
+- [Kanban: Tööde tahvel](https://github.com/orgs/parnu-digiloovtoo/projects/1/views/1)
+
+Rakendust pole veel teostatud. Õpilastiim loob selle projekti käigus.
+
