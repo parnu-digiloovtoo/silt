@@ -10,7 +10,7 @@ Kolm 8. klassi õpilast loovad ühe ruumi digitaalse uksesildi töötava protot�
 
 ## Töö piirid
 
-Põhiversioon kasutab ettevalmistatud tunniplaaniandmeid. Andmed võib sisestada käsitsi või laadida failist. Ühendus kooli tunniplaanisüsteemiga on lisavõimalus. Seinale paigaldamine, ruumide broneerimine ja kõikide klasside seadmed ei kuulu kohustuslikku mahtu.
+Põhiversioon kasutab ettevalmistatud tunniplaaniandmeid. Andmed võetakse Tahvli tunniplaanist. Seinale paigaldamine, ruumide broneerimine ja kõikide klasside seadmed ei kuulu kohustuslikku mahtu.
 
 ## Koostööpartneriga kokkulepitav
 
