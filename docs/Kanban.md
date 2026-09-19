@@ -1,34 +1,33 @@
 # Kanban ja automaatika
 
-Staatus: allpool on GitHub Projects-tahvli seadistusplaan. Automaatikat ei ole veel GitHubis aktiveeritud.
+[Tööde tahvel](https://github.com/orgs/parnu-digiloovtoo/projects/1/views/1) · [Ülesanded](https://github.com/parnu-digiloovtoo/silt/issues)
 
 ## Veerud
 
-Ideed / Tegemata / Töös / Ülevaatamisel / Valmis
+Ideed → Tegemata → Töös → Ülevaatamisel → Valmis
 
-Igal ülesandel on vastutaja, etapp ja valmisoleku tingimused. Takistuse korral lisage silt `takistus` ja kommentaar selle kohta, millist abi vajate.
+- **Ideed:** võimalikud lisatööd ja täpsustamist vajavad mõtted.
+- **Tegemata:** kokkulepitud ülesanded koos valmimistingimustega.
+- **Töös:** aktiivne töö; korraga kuni kolm põhiülesannet, üks iga õpilase kohta.
+- **Ülevaatamisel:** kaaslane kontrollib tulemust.
+- **Valmis:** kontrollitud ja lõpetatud töö.
 
-## Kavandatud automaatika
+Igal ülesandel määrake vastutaja ning leppige kokku tähtaeg. Takistuse korral lisage kommentaar. A01–A20 on loodud ülesannetena #1–#20.
 
-| Sündmus | Tegevus |
-|---|---|
-| Repos luuakse issue või pull request | Projects lisab selle automaatselt tahvlile |
-| Uus element jõuab tahvlile | Algolek „Tegemata” |
-| Issue suletakse | Olek „Valmis” |
-| Pull request ühendatakse | Olek „Valmis” |
+## Seadistatud automaatika
 
-„Töös” ja „Ülevaatamisel” valib õpilane ise. See väldib olukorda, kus pelk vastutaja määramine näitab tööd ekslikult alustatuna.
+- Repo silt uus või uuendatud avatud issue või pull request lisandub tahvlile (filter `is:open`).
+- Lisatud töö saab staatuse **Tegemata**.
+- Ülesandega seotud pull request viib ülesande staatusesse **Töös**.
+- Suletud issue või pull request liigub **Valmis** veergu. Ühendamata suletud PR ei tähenda, et sellega seotud ülesanne on tehtud.
+- Ühendatud pull request liigub **Valmis** veergu.
+- Issue viimine **Valmis** veergu sulgeb selle automaatselt.
+- Projektis oleva töö alamülesanded lisatakse samuti projekti.
 
-Issue sulgemiseks koodimuudatuse kaudu lisage põhiharusse suunatud pull request'i kirjeldusse näiteks `Closes #12`. Asendage 12 tegeliku ülesandenumbriga. Märksõna seob kooditöö ülesandega. Uurimisülesande sulgeb ülevaatuse järel vastutaja.
+Töö alustamisel määrab õpilane staatuse Töös. Ülevaatamisel määratakse käsitsi. PR-i kirjelduses `Closes #number` seob muudatuse ülesandega; põhiharusse ühendamisel sulgeb GitHub seotud ülesande. Sulgege või viige töö Valmis veergu alles pärast kaaslase kontrolli.
 
-Automaatset arhiveerimist ei ole vaja: valmis ülesanded jäävad loovtöö panuse ja käigu tõendiks nähtavale. Suletud, kuid ühendamata pull request ei tähenda, et seotud töö sai valmis. Ülesande olukord tuleb üle vaadata.
+## Kontroll
 
-## Seadistamise kontroll
+19.09.2026: [kontrollülesanne #21](https://github.com/parnu-digiloovtoo/silt/issues/21) lisandus automaatselt veergu Tegemata ning sulgemisel liikus automaatselt veergu Valmis. PR-reeglid on seadistatud; eraldi katse-PR-i ei loodud.
 
-1. Lisage algülesanded tahvlile. Automaatne lisamine peab katma ka tulevased ülesanded.
-2. Looge prooviks issue ja kontrollige tahvlile ilmumist.
-3. Sulgege prooviülesanne ja kontrollige olekut „Valmis”.
-4. Kontrollige seotud proovimuudatusega ülesande sulgumist põhiharusse ühendamisel.
-5. Veenduge, et õpilased saavad ülesandeid liigutada ja muuta.
-
-[GitHub Projects automaatika juhend](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations)
+Õpilaste ligipääs lisatakse pärast GitHubi kasutajanimede saamist. Seejärel kontrollib iga liige töö liigutamist ja muutmist.

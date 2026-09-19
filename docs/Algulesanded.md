@@ -1,6 +1,6 @@
 # Tahvli algülesanded
 
-Need on ettevalmistatud ülesanded. GitHubi issue-numbrid lisatakse loomisel.
+Kõik 20 ülesannet on [GitHubis loodud](https://github.com/parnu-digiloovtoo/silt/issues): A01 vastab #1-le, A02 #2-le jne kuni A20 (#20). Need lisandusid automaatselt [tööde tahvlile](https://github.com/orgs/parnu-digiloovtoo/projects/1/views/1). Vastutajad ja tähtajad leppige kokku tiimi avakohtumisel.
 
 | ID | Etapp | Ülesanne | Valmisoleku tingimus |
 |---|---|---|---|
@@ -30,3 +30,4 @@ Need on ettevalmistatud ülesanded. GitHubi issue-numbrid lisatakse loomisel.
 A03 järgneb A02-le, A04 A03-le ja A05 A01 ning A04 tulemustele. A06 ja A07 saavad alata pärast A05. A08 järgneb A07-le. Teostus A09–A14 lähtub eelkatse ja kujunduse tulemustest. A15 ning A16 vajavad töötavat prototüüpi. A17 järgneb testidele. A18–A20 lõpetavad töö.
 
 Ülesannete mahud ja vastutajad lepitakse kokku tiimiga. Vajaduse korral jagatakse ülesanne väiksemateks osadeks. Tööpäeviku uuendamine kuulub iga ülesande juurde.
+
