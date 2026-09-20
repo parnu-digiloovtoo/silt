@@ -1,17 +1,5 @@
 # Tahvli algülesanded
 
-## Täpsustatud jaotus väikesteks töödeks (20.09.2026)
-
-Allolevad A01–A20 on ülevaatlikud tööpaketid. Nende alla on loodud **81 eraldi GitHubi alamülesannet (#22–#102)**. Igapäevaseks tööks valige üks alamülesanne õpilase kohta; tööpakett sulgege alles siis, kui kõik selle vajalikud sammud ja tulemused on kontrollitud.
-
-[Väikeste töösammude täielik juhend ja valmimistingimused](https://github.com/parnu-digiloovtoo/silt/wiki/Vaikesed-toosammud)
-
-Intervjuudel on eraldi uurimisküsimused, küsimuste mustand, juhendajaga kooskõlastamine, proov ja lõppversioon (#2 all); osalejate valik, aegade kokkuleppimine ja talletamise ettevalmistus (#3 all). Iga osaleja I1–I3 jaoks on eraldi läbiviimise, transkribeerimise ja anonüümse kokkuvõtte ülesanne. I4–I5 lisamisel korrake sama kolme sammu.
-
-Ühe töö orientiir on 20–45 minutit; pikem töö jagatakse veel väiksemaks. See on planeerimise abivahend, mitte ajalimiit. Sõltuvused on iga alamülesande jaotises „Enne alustamist”. Salvestised ja toortranskriptsioonid hoitakse privaatselt; avaldatakse anonüümsed kokkuvõtted.
-
-## Tööpakettide ülevaade
-
 Kõik 20 ülesannet on [GitHubis loodud](https://github.com/parnu-digiloovtoo/silt/issues): A01 vastab #1-le, A02 #2-le jne kuni A20 (#20). Need lisandusid automaatselt [tööde tahvlile](https://github.com/orgs/parnu-digiloovtoo/projects/1/views/1). Vastutajad ja tähtajad leppige kokku tiimi avakohtumisel.
 
 | ID | Etapp | Ülesanne | Valmisoleku tingimus |
@@ -42,4 +30,3 @@ Kõik 20 ülesannet on [GitHubis loodud](https://github.com/parnu-digiloovtoo/si
 A03 järgneb A02-le, A04 A03-le ja A05 A01 ning A04 tulemustele. A06 ja A07 saavad alata pärast A05. A08 järgneb A07-le. Teostus A09–A14 lähtub eelkatse ja kujunduse tulemustest. A15 ning A16 vajavad töötavat prototüüpi. A17 järgneb testidele. A18–A20 lõpetavad töö.
 
 Ülesannete mahud ja vastutajad lepitakse kokku tiimiga. Vajaduse korral jagatakse ülesanne väiksemateks osadeks. Tööpäeviku uuendamine kuulub iga ülesande juurde.
-
