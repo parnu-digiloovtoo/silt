@@ -9,5 +9,6 @@
 7. [Kanban ja automaatika](Kanban.md)
 8. [Tööpäevik](Toopaevik.md)
 9. [Esitlemine](Esitlemine.md)
+10. [Õpilase abileht](Opilase-abileht.md)
 
 Juhendaja, tiimi liikmed, kontaktisik ja tegelikud tähtajad lepitakse kokku projekti alguses.
